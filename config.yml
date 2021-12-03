@@ -7,7 +7,7 @@ template:
 before:
   - type: createIssue
     title: Welcome!
-    body: new-issue.md
+    body: module-1-hello-world.md
 steps:
   - title: Modul 1 - Hello World
     description: >-
@@ -17,6 +17,9 @@ steps:
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+      - type: createIssue
+        title: Welcome!
+        body: module-2-components.md
   - title: Modul 2 - Komponenter
     description: >-
       I denna modul utreder vi vad ett ramverk är samt hur man tänker i
@@ -25,30 +28,45 @@ steps:
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+      - type: createIssue
+        title: Welcome!
+        body: module-3-interactivity.md
   - title: Modul 3 - Interaktivitet
     description: The first step in your course
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+      - type: createIssue
+        title: Welcome!
+        body: module-4-state.md
   - title: Modul 4 - State
     description: The first step in your course
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+      - type: createIssue
+        title: Welcome!
+        body: module-5-react-router.md
   - title: Modul 5 - React Router
     description: The first step in your course
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+      - type: createIssue
+        title: Welcome!
+        body: module-6-redux.md
   - title: Modul 6 - Redux
     description: The first step in your course
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+      - type: createIssue
+        title: Welcome!
+        body: module-7-final-examination.md
   - title: Modul 7 - Slutexamination
     description: The first step in your course
     event: issues.assigned
