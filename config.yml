@@ -8,7 +8,43 @@ before:
     title: Welcome!
     body: new-issue.md
 steps:
-  - title: First step
+  - title: Modul 1 - Hello World
+    description: I denna modul finns information om kursens förkunskaper, upplägg och tekniska krav för att komma igång
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
+  - title: Modul 2 - Komponenter
+    description: I denna modul utreder vi vad ett ramverk är samt hur man tänker i komponenter.
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
+  - title: Modul 3 - Interaktivitet
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
+  - title: Modul 4 - State
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
+  - title: Modul 5 - React Router
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
+  - title: Modul 6 - Redux
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
+  - title: Modul 7 - Slutexamination
     description: The first step in your course
     event: issues.assigned
     link: '{{ repoUrl }}'
