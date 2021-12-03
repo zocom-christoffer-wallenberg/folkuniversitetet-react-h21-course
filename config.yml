@@ -6,7 +6,7 @@ template:
   description: Här hittar du alla kodexempel som är namngivna efter dess modul.
 before:
   - type: createIssue
-    title: Welcome!
+    title: Modul 1 - Hello World
     body: module-1-hello-world.md
 steps:
   - title: Modul 1 - Hello World
@@ -18,7 +18,7 @@ steps:
     actions:
       - type: closeIssue
       - type: createIssue
-        title: Welcome!
+        title: Modul 2 - Komponenter
         body: module-2-components.md
   - title: Modul 2 - Komponenter
     description: >-
@@ -29,46 +29,46 @@ steps:
     actions:
       - type: closeIssue
       - type: createIssue
-        title: Welcome!
+        title: Modul 3 - Interaktivitet
         body: module-3-interactivity.md
   - title: Modul 3 - Interaktivitet
-    description: The first step in your course
+    description: I denna modul tittar vi på hur vi får in interaktivitet i vår React app samt dynamiskt renderar innehåll.
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
       - type: createIssue
-        title: Welcome!
+        title: Modul 4 - State
         body: module-4-state.md
   - title: Modul 4 - State
-    description: The first step in your course
+    description: I denna modul kollar vi på vad ett state är och hur vi kan använda det i vår React app.
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
       - type: createIssue
-        title: Welcome!
+        title: Modul 5 - React Router
         body: module-5-react-router.md
   - title: Modul 5 - React Router
-    description: The first step in your course
+    description: I denna modul kikar vi på hur vi kan bygga en Single Page Application (SPA) med React router.
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
       - type: createIssue
-        title: Welcome!
+        title: Modul 6 - Redux
         body: module-6-redux.md
   - title: Modul 6 - Redux
-    description: The first step in your course
+    description: I denna modul utreder vi fördelar med ett state management system och kollar in vad Redux är och hur det fungerar tillsammans med React.
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
       - type: createIssue
-        title: Welcome!
+        title: Modul 7 - Slutexamination
         body: module-7-final-examination.md
   - title: Modul 7 - Slutexamination
-    description: The first step in your course
+    description: Kursens slutexamination och bedömningsunderlag.
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
