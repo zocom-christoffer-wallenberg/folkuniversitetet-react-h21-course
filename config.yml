@@ -16,7 +16,9 @@ steps:
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+      - type: respond
+        with: odule-1-hello-world-completed.md
+        issue: 1
       - type: createIssue
         title: Modul 2 - Komponenter
         body: module-2-components.md
@@ -27,7 +29,9 @@ steps:
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+      - type: respond
+        with: completed-0.md
+        issue: 2
       - type: createIssue
         title: Modul 3 - Interaktivitet
         body: module-3-interactivity.md
@@ -36,7 +40,9 @@ steps:
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+      - type: respond
+        with: completed-0.md
+        issue: 3
       - type: createIssue
         title: Modul 4 - State
         body: module-4-state.md
@@ -45,7 +51,9 @@ steps:
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+      - type: respond
+        with: completed-0.md
+        issue: 4
       - type: createIssue
         title: Modul 5 - React Router
         body: module-5-react-router.md
@@ -54,7 +62,9 @@ steps:
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+      - type: respond
+        with: completed-0.md
+        issue: 5
       - type: createIssue
         title: Modul 6 - Redux
         body: module-6-redux.md
@@ -63,7 +73,9 @@ steps:
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
-      - type: closeIssue
+      - type: respond
+        with: completed-0.md
+        issue: 6
       - type: createIssue
         title: Modul 7 - Slutexamination
         body: module-7-final-examination.md
@@ -72,4 +84,8 @@ steps:
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
+      - type: respond
+        with: completed-0.md
+        issue: 7
       - type: closeIssue
+        issue: 7
