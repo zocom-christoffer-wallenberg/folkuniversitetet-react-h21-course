@@ -20,6 +20,9 @@ steps:
       - type: respond
         with: module-1/module-1-hello-world-completed.md
         issue: 1
+      - type: octokit
+        method: issues.createMilestone
+        title: Modul 1
       - type: createIssue
         title: Modul 2 - Komponenter
         body: module-2/module-2-components.md
