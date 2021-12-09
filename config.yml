@@ -13,6 +13,11 @@ before:
   - type: createIssue
     title: Modul 1 - Hello World
     body: module-1/module-1-hello-world.md
+  - type: octokit
+    method: issues.update
+    repo: "%payload.repository.name%"
+    owner: "%payload.repository.owner.login%"
+    issue_number: 1
     milestone: 1
 steps:
   - title: Modul 1 - Hello World
