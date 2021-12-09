@@ -7,18 +7,18 @@ template:
 before:
   - type: createIssue
     title: Modul 1 - Hello World
-    body: module-1-hello-world.md
+    body: module-1/module-1-hello-world.md
 steps:
   - title: Modul 1 - Hello World
     description: >-
       I denna modul finns information om kursens förkunskaper, upplägg och
       tekniska krav för att komma igång
-    video: https://vimeo.com/653010481
+    video: https://player.vimeo.com/video/653010481?h=f93203a450
     event: issues.assigned
     link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
-        with: module-1-hello-world-completed.md
+        with: module-1/module-1-hello-world-completed.md
         issue: 1
       - type: createIssue
         title: Modul 2 - Komponenter
