@@ -5,14 +5,15 @@ template:
   name: folkuniversitetet-react-ht21
   description: Här hittar du alla kodexempel som är namngivna efter dess modul.
 before:
-  - type: createIssue
-    title: Modul 1 - Hello World
-    body: module-1/module-1-hello-world.md
   - type: octokit
     method: issues.createMilestone
     owner: "%payload.repository.owner.login%"
     repo: "%payload.repository.name%"
     title: Modul 1
+  - type: createIssue
+    title: Modul 1 - Hello World
+    body: module-1/module-1-hello-world.md
+    milestone: 1
 steps:
   - title: Modul 1 - Hello World
     description: >-
