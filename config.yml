@@ -13,11 +13,12 @@ steps:
     description: >-
       I denna modul finns information om kursens förkunskaper, upplägg och
       tekniska krav för att komma igång
+    video: https://vimeo.com/653010481
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/1'
     actions:
       - type: respond
-        with: odule-1-hello-world-completed.md
+        with: module-1-hello-world-completed.md
         issue: 1
       - type: createIssue
         title: Modul 2 - Komponenter
@@ -27,10 +28,10 @@ steps:
       I denna modul utreder vi vad ett ramverk är samt hur man tänker i
       komponenter.
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/2'
     actions:
       - type: respond
-        with: completed-0.md
+        with: module-2-components-completed.md
         issue: 2
       - type: createIssue
         title: Modul 3 - Interaktivitet
@@ -38,10 +39,10 @@ steps:
   - title: Modul 3 - Interaktivitet
     description: I denna modul tittar vi på hur vi får in interaktivitet i vår React app samt dynamiskt renderar innehåll.
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/3'
     actions:
       - type: respond
-        with: completed-0.md
+        with: module-3-interactivity-completed.md
         issue: 3
       - type: createIssue
         title: Modul 4 - State
@@ -49,10 +50,10 @@ steps:
   - title: Modul 4 - State
     description: I denna modul kollar vi på vad ett state är och hur vi kan använda det i vår React app.
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/4'
     actions:
       - type: respond
-        with: completed-0.md
+        with: module-4-state-completed.md
         issue: 4
       - type: createIssue
         title: Modul 5 - React Router
@@ -60,10 +61,10 @@ steps:
   - title: Modul 5 - React Router
     description: I denna modul kikar vi på hur vi kan bygga en Single Page Application (SPA) med React router.
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/5'
     actions:
       - type: respond
-        with: completed-0.md
+        with: module-5-react-router-completed.md
         issue: 5
       - type: createIssue
         title: Modul 6 - Redux
@@ -71,10 +72,10 @@ steps:
   - title: Modul 6 - Redux
     description: I denna modul utreder vi fördelar med ett state management system och kollar in vad Redux är och hur det fungerar tillsammans med React.
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/6'
     actions:
       - type: respond
-        with: completed-0.md
+        with: module-6-redux-completed.md
         issue: 6
       - type: createIssue
         title: Modul 7 - Slutexamination
@@ -82,10 +83,10 @@ steps:
   - title: Modul 7 - Slutexamination
     description: Kursens slutexamination och bedömningsunderlag.
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: '{{ repoUrl }}/issues/7'
     actions:
       - type: respond
-        with: completed-0.md
+        with: module-7-final-examination-completed.md
         issue: 7
       - type: closeIssue
         issue: 7
