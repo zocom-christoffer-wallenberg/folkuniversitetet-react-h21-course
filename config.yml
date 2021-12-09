@@ -11,12 +11,38 @@ before:
     repo: "%payload.repository.name%"
     title: Modul 1
   - type: octokit
-    method: issues.create
+    method: issues.createMilestone
     owner: "%payload.repository.owner.login%"
     repo: "%payload.repository.name%"
+    title: Modul 2
+  - type: octokit
+    method: issues.createMilestone
+    owner: "%payload.repository.owner.login%"
+    repo: "%payload.repository.name%"
+    title: Modul 3
+  - type: octokit
+    method: issues.createMilestone
+    owner: "%payload.repository.owner.login%"
+    repo: "%payload.repository.name%"
+    title: Modul 4
+  - type: octokit
+    method: issues.createMilestone
+    owner: "%payload.repository.owner.login%"
+    repo: "%payload.repository.name%"
+    title: Modul 5
+  - type: octokit
+    method: issues.createMilestone
+    owner: "%payload.repository.owner.login%"
+    repo: "%payload.repository.name%"
+    title: Modul 6
+  - type: octokit
+    method: issues.createMilestone
+    owner: "%payload.repository.owner.login%"
+    repo: "%payload.repository.name%"
+    title: Modul 7
+  - type: createIssue
     title: Modul 1 - Hello World
-    body: "module-1/module-1-hello-world.md"
-    milestone: 1
+    body: module-1/module-1-hello-world.md
 steps:
   - title: Modul 1 - Hello World
     description: >-
