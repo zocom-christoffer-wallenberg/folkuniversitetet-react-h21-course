@@ -10,6 +10,8 @@ before:
     body: module-1/module-1-hello-world.md
   - type: octokit
     method: issues.createMilestone
+    owner: "%payload.repository.owner.login%"
+    repo: "%payload.repository.name%"
     title: Modul 1
 steps:
   - title: Modul 1 - Hello World
